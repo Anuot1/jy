@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="css/index.css">
+    <title>历年受教育情况</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="t_container">
+        <header class="t_h_bg">
+            <span>受教育情况一览表</span>
+        </header>
+        <main class="t_main">
+            <div class="t_box">
+                <header class="t_title">
+                    <span>1977-2020年中国高考率</span>
+                </header>
+                <div class="t_list">
+                </div>
+                <div id="chart_1" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>2021年本科&专科高校数对比</span>
+                </header>
+                <div id="chart_2" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>1949-2018年学前教育、小学及初中毛入学率</span>
+                </header>
+                <div id="chart_3" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <div class="main_table t_btn8">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>年份</th>
+                            <th>总人口数/万</th>
+                            <th>文盲人数/万</th> 
+                            <th>文盲率</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1949</td>
+                            <td>36000</td>
+                            <td>29000</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>1990</td>
+                            <td>113300</td>
+                            <td>18003</td>
+                            <td>15.9%</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>129533</td>
+                            <td>8507</td>
+                            <td>6.7%</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>133972</td>
+                            <td>5466</td>
+                            <td>4.7%</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>141178</td>
+                            <td>3769</td>
+                            <td>2.67%</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
